@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Ajaxify Reddit</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" media="screen" />
     <link rel="stylesheet" href="css/global.css" media="screen" />
   </head>
@@ -16,18 +17,24 @@
       </div>
       <nav class="col-md-8">
         <ul>
-          <li><a href="#">new</a></li>
-          <li><a href="#">rising</a></li>
-          <li><a href="#">controversial</a></li>
-          <li><a href="#">top</a></li>
-          <li><a href="#">gilded</a></li>
-          <li><a href="#">wiki</a></li>
-          <li><a href="#">promoted</a></li>
+          <li class="home"><a href="#">home</a></li>
+          <li class="new"><a href="#">new</a></li>
+          <li class="rising"><a href="#">rising</a></li>
+          <li class="controversial"><a href="#">controversial</a></li>
+          <li class="top"><a href="#">top</a></li>
+          <li class="gilded"><a href="#">gilded</a></li>
+          <li class="wiki"><a href="#">wiki</a></li>
+          <li class="promoted"><a href="#">promoted</a></li>
         </ul>
       </nav>
     </div>
 
-    <div id="main"></div>
+    <div class="main">
+      <div class="row">
+        <div class="col-md-8 links"></div>
+        <div class="col-md-4 preview"></div>
+      </div>
+    </div>
   </div>
 
   <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>

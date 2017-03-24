@@ -1,5 +1,47 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 nav ul li {
   display: inline-block;
   list-style-type: none;
   margin-right: 25px;
+  font-size: 1em;
+}
+
+nav ul {
+  margin-top: 5%;
+}
+
+h1 {
+  margin-bottom: 15%;
+}
+
+img {
+  margin-left: 30%;
+}
+
+h3:hover {
+  text-decoration: underline;
+}
+
+.domain {
+  margin-left: 40%;
+}
+
+.thumb {
+  height: 12em;
+  width: 13em;
+  box-shadow: 7px 7px 5px grey;
+  margin-bottom: 1em;
+}
+
+.links{
+  width: 50%;
+  margin: 0 25%;
+}
+
+.line {
+  border-top: 3px solid black;
+  margin-bottom: 5%;
 }
